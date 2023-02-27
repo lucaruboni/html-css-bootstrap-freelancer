@@ -1,0 +1,34 @@
+/* debug */
+
+.header_debug{
+    background-color: var(--dark-blue);
+    height: 100px;
+}
+
+.banner_debug{
+    background-color: var(--light-green);
+    height: 400px;
+}
+
+.col_banner_debug{
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+
+
+:root{
+    --dark-blue: #2c3e50;
+    --light-green: #1abc9c;
+    --light-red: #ba4b63;
+}
+
+
+.col_mid_container_debug{
+    height: 300px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--light-red);
+}
