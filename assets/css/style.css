@@ -10,11 +10,34 @@
     height: 400px;
 }
 
+.contact_debug{
+    background-color: var(--light-white);
+    height: 400px;
+}
+
+.main_bottom_debug{
+    background-color: var(--btm-blue);
+    height: 400px;
+}
+.footer_debug{
+    background-color: var(--foot-blue);
+    height: 100px;
+}
+
 .col_banner_debug{
     height: 400px;
     width: 100%;
 }
 
+.col_contact_debug{
+    height: 400px;
+    width: 100%;
+}
+
+.col_bottom_debug{
+    height: 350px;
+    width: 100%;
+}
 
 
 
@@ -24,6 +47,9 @@
     --dark-blue: #2c3e50;
     --light-green: #1abc9c;
     --light-red: #ba4b63;
+    --light-white: #ffffff;
+    --btm-blue: #3a546d;
+    --foot-blue: #2c3e50;
 }
 
 
