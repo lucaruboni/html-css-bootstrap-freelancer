@@ -36,11 +36,7 @@
 
 
 
-.col_mid_container_debug{
-    height: 200px;
-    aspect-ratio: 1 / 1;
-    
-}
+
 
 
 /* #region utilities */
@@ -83,7 +79,7 @@ img{
 
 span.d-inline-block{
     border-top: 2px solid var(--light-white);
-    width: 35%;
+    width: 80px;
 }
 
 .span_font_size{
@@ -96,6 +92,16 @@ span.d-inline-block{
 
 #divider_black{
     border-color: var(--dark-black);
+    width: 100px;
 }
 
 /* #endregion col_container */
+
+/* #region about */
+
+.about{
+    background-color: var(--light-green);
+}
+
+
+/* #endregion about */
