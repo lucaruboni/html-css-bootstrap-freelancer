@@ -1,9 +1,6 @@
 /* debug */
 
-.header_debug{
-    background-color: var(--dark-blue);
-    height: 100px;
-}
+
 
 .banner_debug{
     background-color: var(--light-green);
@@ -43,6 +40,17 @@
 
 
 
+
+
+.col_mid_container_debug{
+    height: 300px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--light-red);
+}
+
+
+/* #region utilities */
+
 :root{
     --dark-blue: #2c3e50;
     --light-green: #1abc9c;
@@ -53,8 +61,16 @@
 }
 
 
-.col_mid_container_debug{
-    height: 300px;
-    aspect-ratio: 1 / 1;
-    background-color: var(--light-red);
+
+
+
+/* #endregion utilities */
+
+/* #region header */
+
+.bg_color{
+    background-color: var(--dark-blue);
+    box-shadow: 0 0 15px grey;
 }
+
+/* #endregion header */
